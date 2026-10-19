@@ -3,11 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web Design Mastery | Skywinds</title>
     <link rel="stylesheet" href="./sky.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+    rel="stylesheet"/>
 </head>
 <body>
+    <nav>
+        <div class="nav_header">
+            <div class="nav_logo">
+                 <a href="#" class="logo">Skywinds</a>
+            </div>
+            <div class="nav_menu_btn" id="menu-btn">
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+        <ul class="nav_links" id="nav-links">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#tour">TOUR</a></li>
+            <li><a href="#package">PACKAGE</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="#">BOOK TRIP</a></li>
+        </ul>
+        <div class="nav_btns">
+            <button class="btn">BOOK TRIP</button>
+        </div>
+    </nav>
     
+    <header id="home">
+        <div class="header_container">
+            <div class="header_content">
+                <p>ELEVATE YOUR TRAVEL JOURNEY</p>
+                <h1>Experience The Magic Of Flight!</h1>
+                <div class="header_btns">
+                    <button class="btn">Book A Trip Now</button>
+                    <a href="#">
+                        <span><i class="ri-play-fill"></i></span>
+                    </a>
+                </div>
+            </div>
+            <div class="header_image">
+                <img src="assets/header.png" alt="header">
+            </div>
+        </div>
+    </header>
+
+    <section class="section_container destination_container" id="about">
+        <h2 class="section_header">Popular Destination</h2>
+        <p class="section_description">
+            Discover the Most Loved Destinations Around the Globe
+        </p>
+        <div class="destination_grid">
+            <div class="destination_card">
+                <img src="assets/destination-1.jpg" alt="destination">
+                <div class="destination_card_details">
+                    <h4>Tradition and Futurism</h4>
+                    <p>New York City, USA</p>
+                </div>
+                <div class="destination_rating">
+                    <span><i class="ri-star-fill"></i></span>
+                    4.7
+                </div>
+            </div>
+            <div class="destination_card">
+                <img src="assets/destination-2.jpg" alt="destination">
+                <div class="destination_card_details">
+                    <h4>The City of Lights</h4>
+                    <p>Paris, France</p>
+                </div>
+                <div class="destination_rating">
+                    <span><i class="ri-star-fill"></i></span>
+                    4.5
+                </div>
+            </div>
+            <div class="destination_card">
+                <img src="assets/destination-3.jpg" alt="destination">
+                <div class="destination_card_details">
+                    <h4>Island of the Gods</h4>
+                    <p>Bali, Indonesia</p>
+                </div>
+                <div class="destination_rating">
+                    <span><i class="ri-star-fill"></i></span>
+                    4.8
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./sky.js"></script>
 </body>
 </html>
