@@ -39,3 +39,8 @@ scrollReveal().reveal(".header_btns", {
     ...scrollRevealOption,
     delay:  1500,
 });
+
+scrollReveal().reveal(".destination_card", {
+    ...scrollRevealOption,
+    interval:500,
+});
